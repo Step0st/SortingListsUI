@@ -5,14 +5,14 @@ public static class SaveSystem
 {
     public static void SaveData(ListObject database)
     {
-        string path = Application.dataPath + "/" + database.name +  ".json";
+        string path = Directory.GetCurrentDirectory() + "/" + database.name +  ".json";
         string json = JsonUtility.ToJson(database);
         File.WriteAllText(path, json);
     }
 
     public static ListObject LoadData(ListObject database)
     {
-        string path = Application.dataPath + "/" + database.name +  ".json";
+        string path = Directory.GetCurrentDirectory() + "/" + database.name +  ".json";
         if (File.Exists(path))
         {
             string json = File.ReadAllText(path);
