@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027937703c61dfa45ac2b6e8806418b7, type: 3}
+  m_Name: "List \u21161"
+  m_EditorClassIdentifier: 
+  container:
+    InfoPanels:
+    - number: 1
+      description: Golf
+    - number: 2
+      description: Foxtrot
+    - number: 3
+      description: Echo
+    - number: 4
+      description: Delta
+    - number: 5
+      description: Charlie
+    - number: 6
+      description: Beta
+    - number: 7
+      description: Alpha
